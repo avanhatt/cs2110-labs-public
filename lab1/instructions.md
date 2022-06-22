@@ -332,7 +332,7 @@ Character.toUpperCase(c)
 ```
 
 > **Note**
-> TODO: Write a method as follows that checks if a character is alphabetic, and converts it to upper case if so. If the letter is not alphabetic, return the empty string (`""`).
+> TODO: Write a method as follows that checks if a character is alphabetic, and converts it to upper case if so. If the letter is not alphabetic, return the space character (`' '`).
 ```java
 public static char toUpperCaseIfAlphabetic(char c) {
     // TODO ...
