@@ -342,7 +342,7 @@ public static char toUpperCaseIfAlphabetic(char c) {
 ```java
 assertEquals('A', Lab1.toUpperCaseIfAlphabetic('a')); 
 assertEquals(..., Lab1.toUpperCaseIfAlphabetic(...)); // should check a ' ' return
-assertEquals(..., Lab1.toUpperCaseIfAlphabetic(...)); // should an already-upper-case letter
+assertEquals(..., Lab1.toUpperCaseIfAlphabetic(...)); // should check an already-upper-case letter
 ```
 > Note that when solving these sorts of programming problems (say in a job interview or when you might hold TA hours in the future), it's always good to think through test cases like this. In particular, checking for _edge cases_ like the method returning `' '`, can help spot issues in your implementation. In computer science, the details matter and can cause bugs, so we want to test even unusual inputs!
 
