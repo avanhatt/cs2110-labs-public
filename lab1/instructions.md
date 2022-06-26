@@ -300,16 +300,16 @@ public static boolean charsAreInOrder(char a, char b, char c) {
     return false; // TODO
 }
 ```
-> *Before* you write any code, let's check that you understand the problem. Add another test in your Lab1Test class. You can either use the menu buttons again, or copy-and-paste your first test and change the name. Call this new test `testCharsAreInOrder`. Add this to its body (note, since we are checking a boolean, we don't need `assertEquals`: we can just assert the boolean value):
+> *Before* you write any code, let's check that you understand the problem. Add another test in your Lab1Test class. You can either use the menu buttons again, or copy-and-paste your first test and change the name. Call this new test `testCharsAreInOrder`. Add this to its body (note, since we are checking a boolean, can use `assertTrue`, `assertFalse,` or `assertEquals(true, ...)`:
 
 ```java
-assert(Lab1.charsAreInOrder('x', 'y', 'z'));
+assertTrue(Lab1.charsAreInOrder('x', 'y', 'z'));
 ```
 > Next, add three more lines of the same form that test cases where 1 new case should return `true` and 2 new cases should return `false`. Note, we use `!` to negative the value to check for the `false` case. Discuss with other students whether your cases are correct. If you are not sure, raise your hand and call over a TA! 
 ```java
-assert(Lab1.charsAreInOrder(...));
-assert(!Lab1.charsAreInOrder(...));
-assert(!Lab1.charsAreInOrder(...));
+assertTrue(Lab1.charsAreInOrder(...));
+assertFalse(Lab1.charsAreInOrder(...));
+assertFalse(Lab1.charsAreInOrder(...));
 ```
 > Now, go back and implement `charsAreInOrder`. Click `Run` again to make sure all of your tests succeed.
 
