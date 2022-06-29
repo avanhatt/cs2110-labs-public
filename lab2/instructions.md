@@ -285,7 +285,7 @@ We won't use stacks or queues directly today, but keep them in mind for later in
 Now that we have a more flexible data structure storing our accounts, complete the following tasks in just `Bank2`:
 
 > **Note**
-> TODO: Add one method to `Bank2` to add a single new `InterestAccount` (`addNewInterestAccount`). Add a public `numberOfAccounts` method.  Add a test called `addNewInterestAccount` (your test can just check the number of accounts). 
+> TODO: Add one method to `Bank2` to add a single new `InterestAccount` (`addNewInterestAccount`). Add a public `numberOfAccounts` method.  Add a test called `testAddNewInterestAccount` (your test can just check the number of accounts). 
 
 > **Note**
 > TODO: Add one method to `Bank2` to add an entire `ArrayList` of accounts to the current list of accounts (`addNewAccounts`). Hint: look in the Java 11 documentation to find a method that makes this cleaner. Add `testAddNewAccounts` as well (again, just the number is fine for this task).
