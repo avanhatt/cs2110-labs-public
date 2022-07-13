@@ -226,7 +226,7 @@ Now, add tests for `changeValues` for two different concrete types as generic ty
 > TODO: Write a test in `MoreBinTreeTests.java`, `testChangeValuesInteger`, that applies 2 different anonymous functions to trees of integers and checks that the tree values have changed.
 
 > **Note**
-> TODO: Write a test in `MoreBinTreeTests.java`, `testChangeValuesString`, that applies 2 different anonymous functions to trees of integers and checks that the tree values have changed.
+> TODO: Write a test in `MoreBinTreeTests.java`, `testChangeValuesString`, that applies 2 different anonymous functions to trees of strings and checks that the tree values have changed.
 
 As a general programming language idiom, this idea of applying a function to change every value in a collection is called _map_ (this is a related but distinct use from "map" as a collection of key and value pairs). If you're curious, you can find a good summary of _map_ as a general concept [here][wikimap], including a comparison of what map looks like across different programming languages.
 
