@@ -126,9 +126,9 @@ Let's see how Java implements anonymous functions.
 Consider this definition of `add1`:
 ```java
 class C {
-	public static int add1(int a) {
-		return a + 1;
-	}
+    public static int add1(int a) {
+        return a + 1;
+    }
 }
 ```
 
@@ -179,7 +179,7 @@ We describe Predicate using a special _FunctionalInterface_, like so:
 @FunctionalInterface   // An annotation, like @Override
 /** An interface with one abstract method. */
 interface Pred {
-	boolean test(int k);
+    boolean test(int k);
 }
 ```
 Conceptually, a functional interface is an interface with exactly one abstract method, which means a single anonymous function alone (without an explicit class implementation!) can _implement_ that interface. If you are curious, see [this JavaHyperText page][funcinterface] for more details. 
