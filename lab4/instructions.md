@@ -10,7 +10,7 @@ Follow similar steps to Lab 1 (go back and look at that handout if needed).
 3. Add JUnit 5 to your build path as we've done in previous projects.
 
 > **Note**
-> TODO: Run `BinTreeTest.java` Eclipse to check everything is working as expected. You should see 3 tests successfully run. If you don't, check with a TA.
+> TODO: Run `BinTreeTest.java` in Eclipse to check everything is working as expected. You should see 3 tests successfully run. If you don't, check with a TA.
 
 [l3]:https://canvas.cornell.edu/courses/40456/pages/lecture-10-trees?module_item_id=1549162
 
