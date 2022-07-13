@@ -195,7 +195,7 @@ int[] c2= { 3, 5, 7, 10 };
 
 boolean all_odd= check(c1, v -> v % 2 == 1); // returns true
 boolean all_positive= check(c1, v -> v > 0); // returns false
-boolean all_positive= check(c2, v -> v > 0); // returns true
+boolean all_positive2= check(c2, v -> v > 0); // returns true
 ```
 
 At compile-time, Java will fail if any of the anonymous functions passed in to `check` do not take in an `int` argument and return a `boolean`, like `Pred.test` requires.
