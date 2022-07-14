@@ -36,7 +36,7 @@ What is the height of this tree?
 Click `Details` below to check.
 <details>
 
-The height of the tree is 2, since the longest path from the root to a node is 2 (`1-3-4`).
+The height of the tree is 2, since the longest path from the root to a node is 2 (`2-3-4`).
 
 </details>
 
