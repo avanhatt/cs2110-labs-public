@@ -162,7 +162,7 @@ Here are a few more examples of valid syntax:
 
 Let's see an example of how we can take an anonymous function as an argument. This is in fact one of the main purposes of an anonymous function: to provide an anonymous function as an argument of a method call, so that the method can call the function.
 
-Saw we wanted to write a function to check if some predicate is true for every element in an array:
+Say we wanted to write a function to check if some predicate is true for every element in an array:
 ```java
 /** Return true iff every element b[k]
   * satisfies p, i.e. p.test(b[k]) is true. */
