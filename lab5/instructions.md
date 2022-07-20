@@ -1,8 +1,8 @@
-# Lab 4: Hashing, Map, and Resizing
+# Lab 5: Hashing, Map, and Resizing
 
 In today's lab, you'll build a resizable hash map that achieves the lofty goal of amortized constant-time access for element access (`get`) and insertion (`put`). Like in previous labs, you can work with a partner.
 
-## Creating your `Lab4` project in Eclipse
+## Creating your `Lab5` project in Eclipse
 
 Follow similar steps to Lab 1 (go back and look at that handout if needed). 
 1. In Eclipse, create a new Java Project named `Lab5`. Again, check that you are using Java 11 and select `No` for `Create module-info.java`. 
