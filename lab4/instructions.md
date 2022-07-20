@@ -10,7 +10,7 @@ Follow similar steps to Lab 1 (go back and look at that handout if needed).
 3. Add JUnit 5 to your build path as we've done in previous projects.
 
 > **Note**
-> TODO: Run `BinTreeTest.java` Eclipse to check everything is working as expected. You should see 3 tests successfully run. If you don't, check with a TA.
+> TODO: Run `BinTreeTest.java` in Eclipse to check everything is working as expected. You should see 3 tests successfully run. If you don't, check with a TA.
 
 [l3]:https://canvas.cornell.edu/courses/40456/pages/lecture-10-trees?module_item_id=1549162
 
@@ -36,7 +36,7 @@ What is the height of this tree?
 Click `Details` below to check.
 <details>
 
-The height of the tree is 2, since the longest path from the root to a node is 2 (`1-3-4`).
+The height of the tree is 2, since the longest path from the root to a node is 2 (`2-3-4`).
 
 </details>
 
@@ -126,9 +126,9 @@ Let's see how Java implements anonymous functions.
 Consider this definition of `add1`:
 ```java
 class C {
-	public static int add1(int a) {
-		return a + 1;
-	}
+    public static int add1(int a) {
+        return a + 1;
+    }
 }
 ```
 
@@ -162,7 +162,7 @@ Here are a few more examples of valid syntax:
 
 Let's see an example of how we can take an anonymous function as an argument. This is in fact one of the main purposes of an anonymous function: to provide an anonymous function as an argument of a method call, so that the method can call the function.
 
-Saw we wanted to write a function to check if some predicate is true for every element in an array:
+Say we wanted to write a function to check if some predicate is true for every element in an array:
 ```java
 /** Return true iff every element b[k]
   * satisfies p, i.e. p.test(b[k]) is true. */
@@ -179,7 +179,7 @@ We describe Predicate using a special _FunctionalInterface_, like so:
 @FunctionalInterface   // An annotation, like @Override
 /** An interface with one abstract method. */
 interface Pred {
-	boolean test(int k);
+    boolean test(int k);
 }
 ```
 Conceptually, a functional interface is an interface with exactly one abstract method, which means a single anonymous function alone (without an explicit class implementation!) can _implement_ that interface. If you are curious, see [this JavaHyperText page][funcinterface] for more details. 
@@ -195,7 +195,7 @@ int[] c2= { 3, 5, 7, 10 };
 
 boolean all_odd= check(c1, v -> v % 2 == 1); // returns true
 boolean all_positive= check(c1, v -> v > 0); // returns false
-boolean all_positive= check(c2, v -> v > 0); // returns true
+boolean all_positive2= check(c2, v -> v > 0); // returns true
 ```
 
 At compile-time, Java will fail if any of the anonymous functions passed in to `check` do not take in an `int` argument and return a `boolean`, like `Pred.test` requires.
@@ -226,7 +226,7 @@ Now, add tests for `changeValues` for two different concrete types as generic ty
 > TODO: Write a test in `MoreBinTreeTests.java`, `testChangeValuesInteger`, that applies 2 different anonymous functions to trees of integers and checks that the tree values have changed.
 
 > **Note**
-> TODO: Write a test in `MoreBinTreeTests.java`, `testChangeValuesString`, that applies 2 different anonymous functions to trees of integers and checks that the tree values have changed.
+> TODO: Write a test in `MoreBinTreeTests.java`, `testChangeValuesString`, that applies 2 different anonymous functions to trees of strings and checks that the tree values have changed.
 
 As a general programming language idiom, this idea of applying a function to change every value in a collection is called _map_ (this is a related but distinct use from "map" as a collection of key and value pairs). If you're curious, you can find a good summary of _map_ as a general concept [here][wikimap], including a comparison of what map looks like across different programming languages.
 
