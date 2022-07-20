@@ -34,11 +34,11 @@ We have stenciled in the method declarations to implement this interface so that
 
 We also provide an `Entry` inner class that has fields for the key and value. 
 
-`ResizableMap` itself currently has no fields: part of your job will be to add fields as necessary along the way.
+`ResizableMap` itself currently has no fields: *part of your job will be to add fields as necessary along the way.*
 
 ### Restrictions
 
-So that you can see how things are implemented under-the-hood more directly, you should not use Java's `HashTable` (or other existing map implementations) or Java's ArrayList (since that does its own resizing) in your implementation. We have provided a simple `LinkedList` class to use, you may opt to replace this with Java's `LinkedList<E>` representation, but the generics are a little more difficult to work with here.
+So that you can see how things are implemented under-the-hood more directly, you should not use Java's `HashTable` (or other existing map implementations) or Java's ArrayList (since that does its own resizing) in your implementation. We have provided a simple `Chain` class that implements as LinkedList to use, you may opt to replace this with Java's `LinkedList<E>` representation, but the generics are a little more difficult to work with here. We suggest first starting with `Chain`.
 
 ## Implementing `size`
 
