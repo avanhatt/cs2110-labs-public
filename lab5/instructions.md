@@ -138,7 +138,7 @@ Steps in your algorithm for resizing:
 3. Create a local variable to store the old array.
 4. Set the backing array to a new array with the new size.
 5. Remember to update/reset any fields tracking the size, now that you have a new (empty) backing array.
-6. Add the items from the old table to the new array. You can use your existing `add` method!
+6. Add the items from the old table to the new array. You can use your existing `put` method!
 
 </details>
 
