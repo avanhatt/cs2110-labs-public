@@ -19,6 +19,10 @@ The core idea of every version control system is to group and track changes to f
 
 `git` is a prolific version control manager, used by the majority of software engineering companies as well as research labs. You have already used GitHub to access these labs, [Github] is a software company that provides a web-based interface (and remote storage, also called "hosting") for projects using `git` (other hosting sites include [Gitlab] and [Bitbucket]). These hosting sites also manage shared access control and permissions, similar to Google drive sharing permissions (determining who can view and edit files).
 
+[Github]: https://github.com
+[Gitlab]: https://about.gitlab.com
+[Bitbucket]: https://bitbucket.org
+
 Since `git` is such a useful skill, there are many good tutorials for learning Git, which we encourage you to read throughout and after this lab:
 1. [Github tutorial][ght].
 2. [Bitbucket tutorial][bht].
