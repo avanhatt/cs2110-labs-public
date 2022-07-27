@@ -1,8 +1,8 @@
-# Lab 4: Hashing, Map, and Resizing
+# Lab 5: Hashing, Map, and Resizing
 
 In today's lab, you'll build a resizable hash map that achieves the lofty goal of amortized constant-time access for element access (`get`) and insertion (`put`). Like in previous labs, you can work with a partner.
 
-## Creating your `Lab4` project in Eclipse
+## Creating your `Lab5` project in Eclipse
 
 Follow similar steps to Lab 1 (go back and look at that handout if needed). 
 1. In Eclipse, create a new Java Project named `Lab5`. Again, check that you are using Java 11 and select `No` for `Create module-info.java`. 
@@ -34,11 +34,11 @@ We have stenciled in the method declarations to implement this interface so that
 
 We also provide an `Entry` inner class that has fields for the key and value. 
 
-`ResizableMap` itself currently has no fields: part of your job will be to add fields as necessary along the way.
+`ResizableMap` itself currently has no fields: *part of your job will be to add fields as necessary along the way.*
 
 ### Restrictions
 
-So that you can see how things are implemented under-the-hood more directly, you should not use Java's `HashTable` (or other existing map implementations) or Java's ArrayList (since that does its own resizing) in your implementation. We have provided a simple `LinkedList` class to use, you may opt to replace this with Java's `LinkedList<E>` representation, but the generics are a little more difficult to work with here.
+So that you can see how things are implemented under-the-hood more directly, you should not use Java's `HashTable` (or other existing map implementations) or Java's ArrayList (since that does its own resizing) in your implementation. We have provided a simple `Chain` class that implements as LinkedList to use, you may opt to replace this with Java's `LinkedList<E>` representation, but the generics are a little more difficult to work with here. We suggest first starting with `Chain`.
 
 ## Implementing `size`
 
@@ -138,7 +138,7 @@ Steps in your algorithm for resizing:
 3. Create a local variable to store the old array.
 4. Set the backing array to a new array with the new size.
 5. Remember to update/reset any fields tracking the size, now that you have a new (empty) backing array.
-6. Add the items from the old table to the new array. You can use your existing `add` method!
+6. Add the items from the old table to the new array. You can use your existing `put` method!
 
 </details>
 
