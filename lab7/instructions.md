@@ -95,7 +95,13 @@ Since you want to track your own copy of any changes in this lab, we'll create a
 Now, we will connect your new empty, remote repo with your local repo. For this, you can follow the instructions that should now show on Github under `…or push an existing repository from the command line`.
 
 > **Note**
-> TODO: From your terminal/command prompt, make sure you are inside the directory/folder you created for the local repo. Follow Github's instructions to add an existing repo from the command line. You may need to follow steps to log in to your account. With those instructions, your remote copy will be called `origin`. 
+> TODO: From your terminal/command prompt, make sure you are inside the directory/folder you created for the local repo. Follow Github's instructions to add an existing repo from the command line. You may need to follow steps to log in to your account (see below). With those instructions, your remote copy will be called `origin`. 
+
+### Logging in to your account
+
+If this is your first time using Github on your computer, you'll need to log in, which `git` will prompt you to to via [these instructions][https]. If you plan to use Github often moving forward, we suggest you scroll down to the options on *Cloning with SSH URLs*, which are easier to use over time. For the purposes of this lab, though, it will be faster to follow the first block of instructions for creating a personal access token. Follow the instructions Github links to, which have you (1) navigate to Settings > Developer settings > Personal Access Tokens; (2) Create a new access token (be sure to check the `repo` checkbox); and (3) copy the access token to your clipboard to paste this in to your terminal/command prompt when asked for your password.
+
+[https]: https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
 
 # Making changes
 
